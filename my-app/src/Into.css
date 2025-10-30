@@ -1,0 +1,112 @@
+.intro-container {
+
+    position: fixed;
+
+    inset: 0;
+
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+    color: #fff;
+    overflow: hidden;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.intro-line {
+    width: 100%;
+    color: #fff;
+    font-size: clamp(2.2rem, 12vw, 8rem);
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    display: block;
+    white-space: nowrap;
+
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.intro-sub {
+    width: 100%;
+    color: #ddd;
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+.intro-letter {
+    font-size: 250px;
+    display: inline-block;
+    margin-right: 0.03em;
+    will-change: transform, opacity;
+}
+
+.intro-portfolio {
+    color: #fff;
+    font-size: 1.6rem;
+    margin: 8px 0 0 0;
+    font-weight: 600;
+}
+
+
+.intro-container {
+    will-change: transform;
+}
+
+.intro-container.intro-exit {
+
+    transform: translateY(-100vh);
+    transition: transform 0.8s ease-in;
+}
+
+
+.intro-container.intro-exit {
+    animation: slideUpExit 0.09s ease-in forwards;
+}
+
+@keyframes slideUpExit {
+    to {
+        transform: translateY(-100%);
+        opacity: 0;
+
+    }
+}
+
+@media (max-width: 1024px) {
+    .intro-line {
+        font-size: clamp(2.5rem, 12vw, 6rem);
+    }
+
+    .intro-sub {
+        font-size: 1.1rem;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .intro-line {
+        font-size: clamp(2rem, 12vw, 5rem);
+    }
+
+    .intro-sub {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 420px) {
+    .intro-line {
+        font-size: clamp(1.6rem, 10vw, 3rem);
+    }
+
+    .intro-sub {
+        font-size: 0.9rem;
+    }
+}
