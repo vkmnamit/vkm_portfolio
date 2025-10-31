@@ -139,3 +139,32 @@
         margin-right: 0;
     }
 }
+
+@media (max-width: 360px) {
+    .name_right h1 {
+        font-size: 3rem;
+    }
+
+    .name_right p {
+        font-size: 0.9rem;
+    }
+
+    .name_right {
+        padding: 15px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .name_right h1 {
+        font-size: 16rem;
+    }
+
+    .name_right p {
+        font-size: 1.8rem;
+        margin-top: 300px;
+    }
+
+    .name_left_img img {
+        width: 400%;
+    }
+}
