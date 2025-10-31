@@ -1,0 +1,5 @@
+{
+  "rootDirectory": "my-app",
+  "buildCommand": "npx vite build",
+  "outputDirectory": "dist"
+}
