@@ -101,9 +101,9 @@
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 420px) {
     .intro-line {
-        font-size: clamp(1.5rem, 12vw, 4rem);
+        font-size: clamp(1.6rem, 10vw, 3rem);
     }
 
     .intro-sub {
@@ -111,30 +111,22 @@
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 320px) {
     .intro-line {
-        font-size: clamp(1.2rem, 10vw, 3rem);
+        font-size: clamp(1.2rem, 8vw, 2.5rem);
     }
 
     .intro-sub {
         font-size: 0.8rem;
     }
-
-    .intro-portfolio {
-        font-size: 1.2rem;
-    }
 }
 
-@media (min-width: 1440px) {
+@media (max-width: 240px) {
     .intro-line {
-        font-size: clamp(3rem, 15vw, 10rem);
+        font-size: clamp(1rem, 6vw, 2rem);
     }
 
     .intro-sub {
-        font-size: 1.2rem;
-    }
-
-    .intro-portfolio {
-        font-size: 2rem;
+        font-size: 0.7rem;
     }
 }

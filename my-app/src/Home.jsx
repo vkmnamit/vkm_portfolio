@@ -15,9 +15,9 @@ export default function Home() {
                 <div className="name_right">
                     <h1 className="name">Vkm namit</h1>
                     <div className="name_right_desc">
-                        <p className="description1" style={{ marginRight: "150px", marginBottom: "32px" }}>Web Developer & Designer based in India</p>
+                        <p className="description1" style={{ marginRight: "150px", marginBottom: "32px", color: "#000000ff" }}>Web Developer & Designer based in India</p>
                         <Link to="/project">
-                            <p className="description2" style={{ marginBottom: "48px", textDecoration: "none" }}>Selected Works</p>
+                            <p className="description2" style={{ marginBottom: "48px", textDecoration: "none", color: "#000", zIndex: 1 }}>Selected Works</p>
                         </Link>
                     </div>
                 </div>
