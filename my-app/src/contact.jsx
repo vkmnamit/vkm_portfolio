@@ -19,7 +19,7 @@ export default function Contact() {
                 (result) => {
 
                     form.current.reset();
-                    alert("Message sent successfully!");
+
                 },
                 (error) => {
 

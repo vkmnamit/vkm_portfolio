@@ -88,7 +88,7 @@
     .intro-sub {
         font-size: 1.1rem;
     }
-    
+
 }
 
 @media (max-width: 768px) {
@@ -101,12 +101,40 @@
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 480px) {
     .intro-line {
-        font-size: clamp(1.6rem, 10vw, 3rem);
+        font-size: clamp(1.5rem, 12vw, 4rem);
     }
 
     .intro-sub {
         font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .intro-line {
+        font-size: clamp(1.2rem, 10vw, 3rem);
+    }
+
+    .intro-sub {
+        font-size: 0.8rem;
+    }
+
+    .intro-portfolio {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .intro-line {
+        font-size: clamp(3rem, 15vw, 10rem);
+    }
+
+    .intro-sub {
+        font-size: 1.2rem;
+    }
+
+    .intro-portfolio {
+        font-size: 2rem;
     }
 }
