@@ -83,3 +83,89 @@
 .intro-letter.animate-in {
     animation: fadeInUp 0.6s ease forwards;
 }
+
+@keyframes fadeInUp {
+    from {
+        transform: translateY(40px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.intro-letter.animate-out {
+    animation: fadeOutDown 0.5s ease forwards;
+}
+
+@keyframes fadeOutDown {
+    from {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    to {
+        transform: translateY(40px);
+        opacity: 0;
+    }
+}
+
+.intro-portfolio.animate-in {
+    animation: fadeInUp 0.6s ease forwards;
+    animation-delay: 0.3s;
+}
+
+.intro-portfolio.animate-out {
+    animation: fadeOutDown 0.5s ease forwards;
+}
+
+.intro-sub.animate-in {
+    animation: fadeInUp 0.6s ease forwards;
+    animation-delay: 0.5s;
+}
+
+.intro-sub.animate-out {
+    animation: fadeOutDown 0.5s ease forwards;
+}
+
+@media (max-width: 1200px) {
+    .intro-letter {
+        font-size: 180px;
+    }
+
+    .intro-portfolio {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 940px) {
+    .intro-letter {
+        font-size: 140px;
+    }
+
+    .intro-portfolio {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 750px) {
+    .intro-letter {
+        font-size: 100px;
+    }
+
+    .intro-portfolio {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 520px) {
+    .intro-letter {
+        font-size: 60px;
+    }
+
+    .intro-portfolio {
+        font-size: 1.2rem;
+    }
+}

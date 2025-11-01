@@ -368,8 +368,7 @@ body,
     }
 
     .project-card:hover .project-details {
-        max-height: 2400px;
-
+        max-height: 2000px;
         opacity: 1;
         margin-top: 1rem;
     }
