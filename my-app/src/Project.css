@@ -367,6 +367,17 @@ body,
         transform: scale(1.05);
     }
 
+    .project-card:hover .project-details {
+        max-height: 2400px;
+
+        opacity: 1;
+        margin-top: 1rem;
+    }
+
+    .img_list img:hover {
+        transform: scale(1.05);
+    }
+
 
 }
 
