@@ -1,5 +1,4 @@
 {
-    "rootDirectory": "my-app",
-    "buildCommand": "npx vite build",
-    "outputDirectory": "dist"
+  "buildCommand": "cd my-app && npx vite build",
+  "outputDirectory": "my-app/dist"
 }
