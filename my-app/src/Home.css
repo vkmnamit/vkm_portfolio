@@ -1,6 +1,7 @@
 :root {
     background-color: white;
     --font-family: 'Poppins', sans-serif;
+    z-index: 999;
 }
 
 .home_container {
@@ -71,6 +72,26 @@
 
 }
 
+@media (max-width: 1800px) {
+    .name_left_img img {
+        width: 250%;
+        height: 100%;
+        margin-top: 0;
+        position: relative;
+    }
+
+    .description1 p {
+        color: #000;
+        margin-right: 30px;
+        margin-bottom: 80px;
+    }
+
+    .description2 p {
+        color: #000;
+        margin-bottom: 80px;
+    }
+}
+
 @media (max-width: 1440px) {
     .name_left_img img {
         width: 200%;
@@ -115,25 +136,23 @@
         width: 100%;
         height: auto;
         padding: 20px;
+        order: 1; /* Ensure text comes first */
     }
-
-
-
 
     .name_right h1 {
         font-size: 10rem;
         margin-top: 0;
     }
 
-
     .name_right p {
-        margin-top: 150px;
-        margin-right: 100px;
+        margin-top: 20px; /* Reduced from 150px */
+        margin-right: 0; /* Removed to prevent off-screen */
     }
 
     .name_left_img {
         width: 100%;
         height: auto;
+        order: 2; /* Image after text */
     }
 
     .name_left_img img {
@@ -141,11 +160,6 @@
         height: auto;
         margin-top: 0;
     }
-
-
-
-
-
 }
 
 

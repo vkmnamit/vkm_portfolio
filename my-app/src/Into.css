@@ -130,6 +130,16 @@
     animation: fadeOutDown 0.5s ease forwards;
 }
 
+@media (max-width: 1600px) {
+    .intro-letter {
+        font-size: 200px;
+    }
+
+    .intro-portfolio {
+        font-size: 1.5rem;
+    }
+}
+
 @media (max-width: 1200px) {
     .intro-letter {
         font-size: 180px;
